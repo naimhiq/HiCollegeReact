@@ -18,6 +18,6 @@ export const fetchData = (url) => {
 		fetchComments();
 	}, [setError, setResponse, url]);
 
-	useDebugValue(response, (item) => item[0].name);
+	useDebugValue("This is important url");
 	return [response, error];
 };
